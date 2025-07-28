@@ -1,5 +1,4 @@
 #Simple regression code
-
 #import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -32,5 +31,5 @@ plt.legend()
 plt.xlabel('X')
 plt.ylabel('y')
 plt.title('Linear Regression')
-# plt.savefig("4.png")
+plt.savefig("4.png")
 plt.show()
