@@ -16,8 +16,8 @@ y_test = to_categorical(y_test)
 #build the architecture
 model = Sequential()
 model.add(Flatten(input_shape=(32,32,3)))
-model.add(Dense(units=10,activation='relu'))
-model.add(Dense(units=10,activation='softmax'))
+model.add(Dense(units=8,activation='relu'))
+model.add(Dense(units=8,activation='softmax'))
 
 #compile
 model.compile(optimizer='adam',loss= 'categorical_crossentropy',metrics=['accuracy'])
